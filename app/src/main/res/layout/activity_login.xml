@@ -65,4 +65,12 @@
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="627dp" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="205dp"
+        app:srcCompat="@drawable/backgroundlogo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </android.support.constraint.ConstraintLayout>
