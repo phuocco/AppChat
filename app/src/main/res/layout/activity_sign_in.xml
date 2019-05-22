@@ -94,6 +94,7 @@
                 android:layout_marginBottom="16dp"
                 android:text="Sign In"
                 android:textSize="20dp"
+                android:onClick="goToProfile"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
                 android:textColor="#F28705"

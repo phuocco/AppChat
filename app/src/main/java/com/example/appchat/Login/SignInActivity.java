@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.appchat.ProfileActivity;
 import com.example.appchat.R;
 
 public class SignInActivity extends AppCompatActivity {
@@ -19,4 +20,10 @@ public class SignInActivity extends AppCompatActivity {
             Intent i = new Intent(SignInActivity.this, SignUpActivity.class);
             startActivity(i);
     }
+
+    public void goToProfile(View view) {
+        startActivity(new Intent(SignInActivity.this, ProfileActivity.class));
+    }
+
+
 }

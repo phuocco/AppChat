@@ -84,6 +84,7 @@
                     android:fontFamily="@font/dosisregular"
                     android:hint="Enter your phone number"
                     android:inputType="phone"
+                    android:autoSizeTextType="uniform"
                     android:textSize="20dp" />
 
                 <Button
