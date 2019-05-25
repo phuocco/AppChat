@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:id="@+id/phoneNumberForSignInActivity"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -19,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@id/footer"
             android:orientation="vertical"
-            tools:context=".Login.SignInActivity">
+            tools:context=".Login.SignInPhoneNumberActivity">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -65,7 +66,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/edt_PhoneNumberSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="36dp"
@@ -92,9 +93,9 @@
                 android:layout_marginRight="36dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Sign In"
+                android:text="Check"
                 android:textSize="20dp"
-                android:onClick="goToProfile"
+                android:onClick="goToInsertPassword"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
                 android:textColor="#F28705"
@@ -129,7 +130,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/btn_signUp"
+                android:id="@+id/btn_goToSignUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"

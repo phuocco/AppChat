@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_above="@id/footer"
             android:orientation="vertical"
-            tools:context=".Login.SignInActivity">
+            tools:context=".Login.SignInPhoneNumberActivity">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -73,7 +73,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editText"
+                    android:id="@+id/edt_PhoneNumberSignUp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingTop="8dp"
@@ -91,6 +91,7 @@
                     android:id="@+id/btn_confirmSignUp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="goToInsertPasswordForSignUp"
                     android:text="GO!"
                     android:textSize="18dp"
                     android:paddingTop="8dp"
