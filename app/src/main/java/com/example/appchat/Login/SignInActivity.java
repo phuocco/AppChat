@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.appchat.ProfileActivity;
+import com.example.appchat.Activity.MainActivity;
 import com.example.appchat.R;
 
 public class SignInActivity extends AppCompatActivity {
@@ -22,7 +22,7 @@ public class SignInActivity extends AppCompatActivity {
     }
 
     public void goToProfile(View view) {
-        startActivity(new Intent(SignInActivity.this, ProfileActivity.class));
+        startActivity(new Intent(SignInActivity.this, MainActivity.class));
     }
 
 
