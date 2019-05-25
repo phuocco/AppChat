@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.appchat"
-        minSdkVersion 17
+        minSdkVersion 15
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -28,10 +28,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.firebase:firebase-core:16.0.9'
     implementation 'de.hdodenhof:circleimageview:2.1.0'
-    //Firebase Authentication with phone number
-    implementation 'com.google.firebase:firebase-auth:17.0.0'
-    //Firebase database
-    implementation 'com.google.firebase:firebase-database:17.0.0'
 
 }
 apply plugin: 'com.google.gms.google-services'
