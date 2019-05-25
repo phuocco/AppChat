@@ -43,8 +43,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="6"
-        android:paddingTop="40dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:gravity="center">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -182,24 +182,44 @@
                 android:src="@drawable/ic_go"/>
         </LinearLayout>
 
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-
-        <Button
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:text="Log out"
-            android:fontFamily="@font/dosissemibold"
-            android:background="#F28705"/>
+            android:layout_marginBottom="14dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F2F2F2"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_exit"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:gravity="center_vertical"
+                android:background="#F2F2F2"
+                android:fontFamily="@font/dosissemibold"
+                android:paddingLeft="6dp"
+                android:text="Log out" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F2F2F2"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_go"/>
+        </LinearLayout>
+
 
     </LinearLayout>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -217,6 +237,12 @@
             android:text="Yaburnt is owned by the PPTTV group.\nNot for sale!"
             />
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
     </LinearLayout>
 
 </LinearLayout>
