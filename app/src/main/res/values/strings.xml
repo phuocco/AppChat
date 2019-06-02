@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">App Chat</string>
+    <string name="passwordSignUp">Enter your password</string>
+    <string name="re_passwordSignUp">Re-Password</string>
+    <string name="btn_SignUp">Sign Up</string>
+    <string name="passwordLessThan5">Password must be more than 5 characters</string>
+    <string name="RePasswordNotMatch">Re-Password does not match</string>
+    <string name="Success">Success</string>
+    <string name="Failed">Failed</string>
+    <string name="phoneNumberUsed">This phone number is already in use</string>
+    <string name="phoneNumberNotRegistered">This phone number has not been registered</string>
+    <string name="phoneNumberEmpty">Please enter a phone number</string>
+    <string name="passwordEmpty">Please enter a password</string>
+    <string name="tryAgain">Please try again</string>
+    <string name="notEnteredPassword">You have not entered a password</string>
+    <string name="notConnectInternet">You aren not connected to the Internet</string>
+    <string name="find_friend">Find friend</string>
+    <string name="friend_list">Friend list</string>
+    <string name="passwordIncorrect">Your password incorrect</string>
+    <string name="insertName">Please enter your name </string>
+    <string name="enterYourName">Your name</string>
+    <string name="accept">Accept</string>
+    <string name="processing">Processing</string>
 </resources>
